@@ -65,6 +65,7 @@ body {
 	transform-style: preserve-3d;
 	transition: 150ms;
 	cursor: pointer;
+	user-select: none;
 	transform: perspective(1000px) rotateY(var(--rotate-y, 0))
 		translateY(var(--translate-y, 0));
 }
