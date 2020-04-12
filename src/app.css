@@ -78,6 +78,10 @@ body {
 	--rotate-y: 180deg;
 }
 
+.card.flip .front {
+	opacity: 0;
+}
+
 .card .front {
 	left: 0;
 }
